@@ -5,7 +5,7 @@
 ## Step 1 — Try the naive ask
 
 Ask Copilot:
-> "Create a JIRA ticket titled 'Hello from team [your-team-id]'."
+> Create a JIRA ticket titled 'Hello from team [your-team-id]'.
 
 Observe what happens. It will probably fail, ask follow-up questions, or land somewhere unexpected.
 

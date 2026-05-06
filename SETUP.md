@@ -2,7 +2,7 @@
 
 You need three pieces working before Challenge 0:
 
-1. **APM** — Anthropic's Agent Package Manager CLI
+1. **APM** — [Agent Package Manager](https://github.com/microsoft/apm) CLI
 2. **`skill-creator`** — installed via APM
 3. **JIRA MCP server** — connection details from your facilitator
 
@@ -10,7 +10,18 @@ If any of these fails during setup, raise it BEFORE the workshop. Five quiet min
 
 ## 1. Install APM
 
-APM is Anthropic's CLI for installing and managing Agent Skills. Follow the install instructions on the projector (they point at the official APM documentation — pinning a URL here would just go stale).
+APM is the open-source Agent Package Manager (see [microsoft/apm](https://github.com/microsoft/apm)) — a CLI for installing and managing agent skills, prompts, and MCP servers.
+
+Install it locally with the official one-liner:
+
+- **Linux / macOS:**
+  ```bash
+  curl -sSL https://aka.ms/apm-unix | sh
+  ```
+- **Windows (PowerShell):**
+  ```powershell
+  irm https://aka.ms/apm-windows | iex
+  ```
 
 Verify with:
 ```bash
@@ -27,9 +38,9 @@ apm install
 APM reads `apm.yaml` and installs the listed skills (currently: `skill-creator`) into your Copilot environment.
 
 Verify by asking Copilot:
-> "What skills do I have access to?"
+> What skills do I have access to?
 
-You should see `skill-creator` in the list. You'll use it in Challenge 1 to bootstrap your `coffee-feature-decomposer` skill.
+You should see `skill-creator` in the list. You'll use it in Challenge 1 to refine the `coffee-feature-decomposer` skill scaffold that already lives at [skills/coffee-feature-decomposer/SKILL.md](skills/coffee-feature-decomposer/SKILL.md).
 
 ## 3. Connect to the JIRA MCP server
 

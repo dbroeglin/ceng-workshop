@@ -4,17 +4,17 @@
 
 ## Step 1 — Bootstrap the skill
 
-A scaffold is already on disk at `skills/coffee-feature-decomposer/SKILL.md`. You'll use `skill-creator` to *refine* it, not generate it from nothing.
+A scaffold is already on disk at `skills/coffee-feature-decomposer/SKILL.md`. To simplify the workshop, you'll use `skill-creator` to *refine* it, not generate it from nothing. However, `skill-creator` is perfect for creating skills from scratch too!  
 
 Ask Copilot:
-> "Use skill-creator to review and refine the existing skill at skills/coffee-feature-decomposer/SKILL.md. It decomposes a Coffee Machine 3.0 feature one-liner into a JIRA-ready Epic + Stories + Tasks. Help me sharpen the frontmatter (name, description) and triggers. No code."
+> Use skill-creator to review and refine the existing skill at skills/coffee-feature-decomposer/SKILL.md. It decomposes a Coffee Machine 3.0 feature one-liner into a JIRA-ready Epic + Stories + Tasks. Help me sharpen the frontmatter (name, description) and triggers. No code.
 
 Skim the suggestions, accept the ones that read better. **Don't touch the `Output format` or `Examples` TODOs yet** — that's Challenge 2.
 
 ## Step 2 — First run (the "before")
 
 Pick one feature from `specs/coffee-machine-3.0-brief.md` — for example, "queue management with calendar-aware pre-brewing." Ask Copilot:
-> "Use the coffee-feature-decomposer skill to break down [your feature]."
+> Use the coffee-feature-decomposer skill to break down [your feature].
 
 Read the output. It's probably generic — "user" instead of a real person, inconsistent vocabulary. Keep this output around for comparison.
 

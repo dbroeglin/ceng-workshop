@@ -1,0 +1,10 @@
+name: ceng-workshop
+version: 1.0.0
+description: Context Engineering Workshop
+author: Dominique Broeglin
+dependencies:
+  apm:
+  - anthropics/skills/skills/skill-creator
+  mcp: []
+includes: auto
+scripts: {}

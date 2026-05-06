@@ -10,7 +10,7 @@ Open `skills/coffee-feature-decomposer/SKILL.md`. Find the `## Output format` se
 - **Story:** title, "As a [persona] / I want / So that," Given/When/Then acceptance criteria
 - **Task:** engineer-readable, less than one day, no implementation details
 
-Be specific. Vague contracts produce vague output.
+**Be specific. Vague contracts produce vague output.**
 
 > Notice: you're NOT writing the team prefix, label, issue type, or any JIRA field in here — those live in `.github/copilot-instructions.md` (filled in Challenge 0). The skill just says "per the JIRA configuration in copilot-instructions.md." One source of truth, less drift.
 
@@ -23,14 +23,14 @@ This story defines the quality bar for everything Copilot generates next.
 ## Step 3 — Wire it into the skill
 
 Back in `SKILL.md`, find the `## Examples` section. Replace the TODO with a reference to `examples/gold-story.md` and the instruction:
-> "Match the shape and quality of this example."
+> Match the shape and quality of this example.
 
 ## Step 4 — Re-run and push to JIRA
 
 Same feature, same prompt. The output should now look noticeably more like your gold story.
 
 When you're happy:
-> "Push these tickets to JIRA."
+> Push these tickets to JIRA.
 
 Check JIRA via your team's saved filter. Tickets land with the right prefix, label, and structure.
 
