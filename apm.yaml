@@ -1,0 +1,10 @@
+# APM (Agent Package Manager) configuration — Coffee Machine 3.0 workshop.
+# Lists skills participants need installed.
+# Run `apm install` from this directory.
+#
+# NOTE: validate against the current APM spec before the workshop —
+# the schema may have evolved. Adjust if `apm install` complains.
+
+version: 1
+skills:
+  - skill-creator
